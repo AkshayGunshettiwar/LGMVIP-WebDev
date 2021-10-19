@@ -1,0 +1,71 @@
+nav{
+    background: linear-gradient(45deg, rgba(205, 155, 225), #99fa);
+    border: 1px solid #878787;
+    box-shadow: 0px 0px 4px;
+    display: flex;
+}
+
+.nav-logo{
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 300px;
+    font-family: 'Patua One', cursive;
+}
+
+.nav-button{
+    margin-left: 900px;
+    margin-top: 10px;
+    background-color: #000000;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.imag{
+    border-radius: 50%;
+    transform: scale(1.1);
+}
+
+.box{
+    margin-top: 100;
+}
+
+.main-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding: 10px 50px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.container .card{
+    width:270px;
+    height:370px;
+    margin:20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card:hover{
+    transform: scale(1.1);
+  
+}
+
+.name{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.loading{
+    text-align: center;
+    margin-top: 50px;
+}
+

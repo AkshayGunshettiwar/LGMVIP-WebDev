@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+       /* section 1 */
+
+#banner {
+    background: url(./Images/banner3.jpg);
+    background-size: cover;
+    height: 80vh;
+  }
+
+  @media screen and (max-width:768px) {
+      #banner{
+          width: 100%;
+          
+      }
+  }
+
+  .nav{
+    background-color: #1B1B1B; 
+    overflow: hidden; 
+    position:fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1;
+  }
+
+  .topnav{
+      overflow: hidden;
+      display: flex;
+      
+  }
+
+  .topnav a{
+      float: left;
+      color: #f2f2f2;
+      text-decoration: none;
+      padding: 25px  0 25px 0;
+      text-align: center;
+      margin-left: 50px;
+      font-size: 15px;
+  }
+
+  .topnav a:hover{
+      color: #FFCD01;
+  }
+
+  .heading{
+    margin-top: 68px;
+    padding-top: 100px;
+    word-spacing: 2px;
+    color: #fff;
+    font-size: 45px;
+  }
+
+  .lower-heading{
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  button{
+     margin-top: 22px;
+     padding:10px;
+     border-radius: 5px;
+  }
+
+  .index-button:hover{
+      transform: translateY(4px)
+  }
+
+       /* section 2 */
+
+.main-heading{
+    margin-top: 50px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.cards{
+    display: flex;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 60px;
+    
+}
+
+.far{
+    background-color: #5A2776;
+    padding:15px;
+    border-radius: 50%;
+}
+
+.card{
+    width: 200px;
+    height: 350px;
+}
+
+.button-sec:hover{
+    color: #FFCD01;
+}
+
+.project-image{
+    width: 380px;
+    height: 220px;
+}
+
+
+/* section 4 */
+
+.pricing{
+    display: flex; 
+    margin-left: 400px;
+    margin-top: 5px
+}
+
+.pricingDiv{
+    padding: 40px;
+    text-align: center;
+}
+
+.projectBut{
+    width: 80px;
+    height: 35px;
+    font-size: 10px;
+}
+
+.projectBut:hover{
+    transform: translateX(1.5px);
+}
+
+/* section 5 */
+
+.vidProject{
+    background-color:#5A2776 ;
+    height: 50%;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.video-heading{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.vid{
+    margin:30px 30px 80px 30px
+}
+
+
+
+/* section 6 */
+
+.team-image{
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+}
+
+.team-image:hover{
+    background-color:#5A2776 ;
+}
+
+.image{
+    text-align: center;
+    padding: 30px 10px 20px 30px;
+    margin: 15px;
+}
+
+.image:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 430px;
+    margin-right: 340px;
+}
+
+/* section 7 */
+
+.life{
+    background-color: #dddddd;
+    
+}
+
+.zippyLife{
+    height: 300px;
+    /* margin: 24px 0 0 300px; */
+    width: 40%;
+}
+.gallery-cell{
+    height: 50px;
+}
+
+
+
+
+/*  */
+
+img{
+    height: 300px;
+    display: block;
+}
+.img-display{
+    overflow: hidden;
+    
+}
+
+.img-showcase{
+    display: flex;
+    margin-top: 20px;
+    margin: 0 10px 0 10px;
+    transition: all 0.5s ease;
+}
+
+.img-showcase img{
+    min-width: 100%;
+    min-height: 600px;
+}
+.img-select{
+    display: flex;
+    margin-left: 500px;
+    
+}
+.img-item{
+    margin: 0.3rem;
+}
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3),
+.img-item:nth-child(4){
+    margin-right: 0;
+}
+
+.img-item:hover{
+    opacity: 0.8;
+}
+
+
+/* section 8 */
+
+#signup{
+    background: url(./Images/signup.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 40vh;  
+}
+
+.signup-heading{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 70px;
+    color: #fff;
+}
+
+.but-sec{
+    margin-left: -5px; 
+    width: 8%; 
+    color: black; 
+    background-color: #FFCD01; 
+    border-radius: 0%; 
+    margin-top: 35px; 
+}
+
+.blog-card{
+    text-align: center;
+    width: 220px;
+    margin-left: 30px;
+    border-radius: 10;
+}
+.blog-card:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* section 10 */
+
+.inputs{
+    width: 230px; 
+    margin-bottom: 10px; 
+    margin-top: 5px
+}
+
+/* section 11 */
+
+.fab{
+    font-size: 20px;
+    padding: 8px;
+}
+
+.fab:hover{
+    transform: scale(1.1);
+}
+
+.fas:hover{
+    transform: scale(1.1);
+}
+
+.far:hover{
+    transform: scale(1.1);
+}
